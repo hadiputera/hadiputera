@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php 
 					echo '<th scope="row">'.$hour.'</th>';
                     echo '<td>'.$hour.'</td>';
-                    echo '<td>'.number_format($hourlyRates['energyPerHour'], 5).'</td>';
+                    echo '<td>'.$hourlyRates['energyPerHour'].'</td>';
 					echo '<td>'.number_format($hourlyRates['totalPerHour'], 2).'</td>';
                  }
 				?>
